@@ -427,6 +427,10 @@ figure {
     }
 
     /* WP prod adds an extra inner div on groups */
+    .group {
+        display: grid;
+    }
+
     .group div {
         display: grid;
         /* grid-template-rows: 1fr 1fr 2fr; */
