@@ -429,7 +429,7 @@ figure {
     /* WP prod adds an extra inner div on groups */
     .group div {
         display: grid;
-        grid-template-rows: 1fr 1fr 2fr;
+        /* grid-template-rows: 1fr 1fr 2fr; */
         grid-auto-rows: minmax(100px, auto);
     }
 
