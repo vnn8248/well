@@ -426,22 +426,23 @@ figure {
         grid-template-columns: 1fr 1fr;
     }
 
-    .group {
+    /* WP prod adds an extra inner div on groups */
+    .group div {
         display: grid;
-        /* grid-template-rows: 1fr 1fr 2fr; */
+        grid-template-rows: 1fr 1fr 2fr;
         grid-auto-rows: minmax(100px, auto);
     }
 
-    .group h4 {
+    .group div h4 {
         align-self: start;
     }
 
-    .group p:nth-child(2) {
+    .group div p:nth-child(2) {
         align-self: start;
         margin-top: 0;
     }
 
-    .group p:nth-child(3) {
+    .group div p:nth-child(3) {
         align-self: end;
         margin-top: 0;
     }
