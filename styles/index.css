@@ -501,6 +501,13 @@ figure {
 }
 
 @media only screen and (min-width: 1440px) {
+
+    h3,
+    p {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
     .projects {
         padding: 50px 200px;
     }
