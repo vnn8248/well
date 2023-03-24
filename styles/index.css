@@ -394,11 +394,17 @@ figure {
     }
 
     .hero {
-        padding: 25px 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .hero h2 .br {
         display: none;
+    }
+
+    /* Hero container max-width from here on */
+    .hero p {
+        max-width: 500px;
     }
 
     .me img {
@@ -419,7 +425,12 @@ figure {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .hero {
-        padding: 25px 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .hero p {
+        max-width: 550px;
     }
 
     .projects .grid {
@@ -454,8 +465,13 @@ figure {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .hero {
-        padding: 25px 100px;
+    /* .hero {
+        padding-left: 200px;
+        padding-right: 200px;
+    } */
+
+    .hero p {
+        max-width: 725px;
     }
 
     .grid {
@@ -468,8 +484,8 @@ figure {
         margin-bottom: 40px;
     }
 
-    .inner div:nth-of-type(2) {
-        align-self: center;
+    figure {
+        margin-top: 103px;
     }
 
     .projects .grid {
@@ -481,10 +497,6 @@ figure {
 @media only screen and (min-width: 1200px) {
     .hero {
         padding: 25px 200px;
-    }
-
-    .hero p:last-child {
-        max-width: 500px;
     }
 }
 
