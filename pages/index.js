@@ -2,14 +2,13 @@ import { client } from '../lib/apollo';
 import { gql } from '@apollo/client';
 import Navigation from '../components/Navigation';
 
-export default function Home({ copy, media }) {
-  const heroCopy = copy.find(i => i.title === 'Home');
+export default function Home({ content }) {
 
   return (
-    <div className="container">
+    <div className='container'>
       <main>
         <div className='hero'>
-          <div dangerouslySetInnerHTML={{ __html: heroCopy.content }} />
+          <div dangerouslySetInnerHTML={{ __html: content[0].content }} />
         </div>
 
         <Navigation page='home'/>
@@ -20,9 +19,9 @@ export default function Home({ copy, media }) {
 
 export async function getStaticProps(){
 
-  const GET_COPY = gql`
-    query GetCopy {
-      pages {
+  const GET_CONTENT = gql`
+    query GetContent {
+      pages(where: {title: "Home"}) {
         nodes {
           id
           content
@@ -32,15 +31,15 @@ export async function getStaticProps(){
     }
   `
 
-  const copyRes = await client.query({
-    query: GET_COPY
+  const res = await client.query({
+    query: GET_CONTENT
   });
 
-  const copy = copyRes?.data?.pages?.nodes
+  const content = res?.data?.pages?.nodes
 
   return {
     props: {
-      copy
+      content
     }
   }
 }
