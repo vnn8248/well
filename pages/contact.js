@@ -8,21 +8,21 @@ export default function Contact() {
             <main>
                 <div className='hero'>
                     <div>
-                        <h2 className='fade-1'>Thanks for considering my application for <br class='br'></br><span className='athletic'>The Athletic.</span></h2>
+                        <h2 className='fade-1'>Thanks for considering my application for <br class='br'></br><span className='readme'>ReadMe.</span></h2>
                         <p className='fade-2'>
-                            As a sports and ethical journalism advocate, I respect and admire the good work being done at <span className='athletic'>The Athletic</span>.
+                            As a community advocate and global-minded empath, I respect and admire the good work being done at <span className='readme'>ReadMe</span>.
                         </p>
                         <p className='fade-2'>
-                            I believe I will make a strong candidate for this position because it is my perfect mix of passions - coding, sports, culture, and the intersectionality of it all told through content and supported through community.
+                            It brings a smile to my face to read a truly great job description like this one. I am excited to learn more about how this position will collaborate with different teams for different projects. 
                         </p>
                         <p className="has-text-align-left code fade-3">
                             <code>
-                                <a href="https://jobs.lever.co/theathletic/154a8623-7b4f-42b0-82e6-2e5ee030a2a0" data-type="URL" data-id="https://jobs.lever.co/theathletic/154a8623-7b4f-42b0-82e6-2e5ee030a2a0" target="_blank" rel="noreferrer noopener">
-                                    Software Engineer, Full Stack - Subscriber Experience (Remote)
+                                <a href="https://jobs.ashbyhq.com/readme/43ebc7c3-4653-4037-841e-075ad428a68d" data-type="URL" target="_blank" rel="noreferrer noopener">
+                                    Front End Engineer
                                 </a>
                             </code>
                         </p>
-                        <p className='fade-3'>
+                        <p className='fade-4'>
                             For any questions on my experience, please feel free to contact me at any time.
                         </p>
                         <div className='codeNguyen'>

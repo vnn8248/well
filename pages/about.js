@@ -10,7 +10,7 @@ export default function About({ content }) {
             <div className='hero'>
               <div className='inner' dangerouslySetInnerHTML={{ __html: content[0].content }} />
               <button className='btn fade-4'>
-                <a href='/resume.pdf' download='bi-nguyen-resume'>
+                <a href='/bi-nguyen-resume.pdf' download='bi-nguyen-resume'>
                   Resume
                 </a>
               </button>
