@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: left;
+    color: #003290;
 }
 
 * {
@@ -10,7 +11,6 @@ body {
 }
 
 h1 {
-    color: black;
     font-size: 3.5rem;
     margin-top: 0;
 }
@@ -30,7 +30,7 @@ h3 {
 p {
     margin: 0;
     margin-top: 50px;
-    font-size: 1rem;
+    font-size: 1.25em;
 }
 
 a {
@@ -139,14 +139,18 @@ code a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     z-index: 1;
     background: white;
 }
 
 .hero {
-    padding: 25px;
+    padding: 50px 25px;
+    background-color: #e7f3ff;
+    border-radius: 2em 2em 2em 2em;
+    /* height: 80vh; */
+    margin: 1em;
 }
 
 .grid {
@@ -155,7 +159,7 @@ code a:hover {
     /* grid-auto-rows: minmax(250px, auto); */
     grid-gap: 1em;
     /* max-width: 1000px; */
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .card {
@@ -220,9 +224,17 @@ code a:hover {
     color: orange;
 }
 
+.readme {
+    color: #118cfd;
+}
+
 /*******************************************/
 /* Navigation */
 /*******************************************/
+.nav {
+    margin-top: 50px;
+}
+
 .next,
 .prev {
     display: flex;
@@ -325,7 +337,7 @@ figure {
     flex-direction: column;
     position: relative;
     transition: 0.4s ease-in-out all;
-    background: rgba(61, 64, 91, .05);
+    background: #e7f3ff;
 }
 
 .group:hover {
