@@ -4,8 +4,8 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                    <title>Bi Nguyen - The Athletic</title>
-                    <link rel="icon" href="alphabet-b.svg"></link>
+                    <title>Bi Nguyen - ReadMe</title>
+                    <link rel="icon" href="readme.png"></link>
             </Head>
             <div>
                 {children}
