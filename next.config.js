@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-        domains: ['the-athletic.local']
+        domains: ['read-me.local']
     }
 }
