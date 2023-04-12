@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-        domains: ['read-me.local']
+        domains: ['well.local']
     }
 }

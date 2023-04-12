@@ -8,17 +8,17 @@ export default function Contact() {
             <main>
                 <div className='hero'>
                     <div>
-                        <h2 className='fade-1'>Thanks for considering my application for <br class='br'></br><span className='readme'>ReadMe.</span></h2>
+                        <h2 className='fade-1'>Thanks for considering my application for <br class='br'></br><span className='well'>Well.</span></h2>
                         <p className='fade-2'>
-                            As a community advocate and global-minded empath, I respect and admire the good work being done at <span className='readme'>ReadMe</span>.
+                            As a community advocate and global-minded empath, I respect and admire the good work being done at <span className='well'>Well</span>.
                         </p>
                         <p className='fade-2'>
                             It brings a smile to my face to read a truly great job description like this one. I am excited to learn more about how this position will collaborate with different teams for different projects. 
                         </p>
                         <p className="has-text-align-left code fade-3">
                             <code>
-                                <a href="https://jobs.ashbyhq.com/readme/43ebc7c3-4653-4037-841e-075ad428a68d" data-type="URL" target="_blank" rel="noreferrer noopener">
-                                    Front End Engineer
+                                <a href="https://boards.greenhouse.io/well/jobs/6629361002" data-type="URL" target="_blank" rel="noreferrer noopener">
+                                    Software Developer (Javascript)
                                 </a>
                             </code>
                         </p>

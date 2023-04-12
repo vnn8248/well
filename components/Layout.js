@@ -5,7 +5,7 @@ export default function Layout({ children }) {
         <>
             <Head>
                     <title>Bi Nguyen - ReadMe</title>
-                    <link rel="icon" href="readme.png"></link>
+                    <link rel="icon" href="blue-circle.svg"></link>
             </Head>
             <div>
                 {children}
